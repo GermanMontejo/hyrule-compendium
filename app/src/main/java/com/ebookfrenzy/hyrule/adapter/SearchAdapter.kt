@@ -35,7 +35,6 @@ class SearchAdapter :
     inner class SearchViewHolder(itemView: View) :
         RecyclerView.ViewHolder(itemView) {
         fun bindView(entry: CategoryItem) {
-            println("entry name: ${entry.name}")
             itemView.apply {
                 val textViewName = findViewById<TextView>(R.id.textViewName)
                 val imageCategory = findViewById<ImageView>(R.id.imageCategory)

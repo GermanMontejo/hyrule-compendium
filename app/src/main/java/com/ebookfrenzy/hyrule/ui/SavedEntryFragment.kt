@@ -56,7 +56,6 @@ class SavedEntryFragment : Fragment() {
                     putParcelable("entry", Entry(entry))
                     putString("launchedFrom", Constants.SAVED_ENTRY_FRAGMENT)
                 }
-                println("launching entry fragment.")
                 findNavController().navigate(
                     R.id.action_savedEntryFragment_to_entryFragment,
                     bundle

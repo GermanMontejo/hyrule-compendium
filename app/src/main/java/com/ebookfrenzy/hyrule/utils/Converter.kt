@@ -14,7 +14,6 @@ object Converter {
             categoryItems.add(
                 createCategoryItem(entry)
             )
-            println("categoryItems: ${categoryItems[0]}")
         }
         return categoryItems
     }

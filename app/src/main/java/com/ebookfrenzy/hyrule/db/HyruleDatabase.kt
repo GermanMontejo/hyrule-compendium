@@ -25,7 +25,6 @@ abstract class HyruleDatabase : RoomDatabase() {
                     ).build()
                 }
             }
-            println("returning instance!")
             return instance
         }
     }
