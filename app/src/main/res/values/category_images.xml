@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="category_images">
+        <item>@drawable/hylianretriever</item>
+        <item>@drawable/mastersword</item>
+        <item>@drawable/hydromelon</item>
+        <item>@drawable/lynel</item>
+        <item>@drawable/treasurechest</item>
+    </integer-array>
+</resources>
