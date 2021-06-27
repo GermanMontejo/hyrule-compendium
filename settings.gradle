@@ -1,0 +1,2 @@
+rootProject.name = "Hyrule"
+include ':app'

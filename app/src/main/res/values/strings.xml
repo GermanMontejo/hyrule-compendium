@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Hyrule Compendium</string>
+    <array name="descriptions">
+        <item>
+            This app is an encyclopedia of all in-game equipment,
+            creatures, monsters, materials, and treasures. Each category contains information
+            such as the location, description, and image of certain items, creatures, or monsters.
+        </item>
+        <item>
+            Select the monster category to view all the monsters existing
+            in The Legend of Zelda: Breath of the Wild. This category also contains information on
+            the items a monster drops once it has been slain.
+        </item>
+        <item>
+            Select the treasure category to view the information about all the treasures in The
+            Legend of Zelda: Breath of the Wild. You can find information such as the location and a
+            thorough description of each treasure.
+        </item>
+        <item>
+            Select the creature category to view all the creatures in The Legend of Zelda:
+            Breath of the Wild. Most creatures drop materials that can be used as ingredients for
+            cooking or crafting.
+        </item>
+        <item>
+            Select the materials category to view all the objects which
+            can be used for crafting items, cooking food, or even sold to shops or merchants in
+            exchange for Rupees.
+        </item>
+        <item>
+            Select the equipment category to view all items related to swords, shields, and armors.
+            These items can be enhanced with crafting materials. There is a thorough description
+            for each item in the equipment category.
+        </item>
+    </array>
+    
+    <array name="categories">
+        <item>Creatures</item>
+        <item>Equipment</item>
+        <item>Materials</item>
+        <item>Monsters</item>
+        <item>Treasure</item>
+    </array>
+    <string name="home">Home</string>
+    <string name="saved_entries">Saved Entries</string>
+    <string name="search_entry">Search Entry</string>
+    <string name="category">Category:</string>
+    <string name="description">Description:</string>
+    <string name="info1">Info 1</string>
+    <string name="info2">Info 2</string>
+    <string name="extra_info">Extra Info:</string>
+    <string name="creatures">Creatures</string>
+
+    <string name="input_search_query">Input search query here...</string>
+    <string name="category_image">Category Image</string>
+    <string name="cooking_effect">Cooking Effect:</string>
+    <string name="hearts_recovered">Hearts Recovered:</string>
+    <string name="drops">Drops:</string>
+    <string name="locations">Locations:</string>
+    <string name="attack_defense">Attack, Defense:</string>
+    <string name="name">Name</string>
+    <string name="entry_not_found">Entry not found.</string>
+    <string name="upsert_entry">Save or Update Entry</string>
+
+</resources>

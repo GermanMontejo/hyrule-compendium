@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ebookfrenzy.hyrule.ui.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_searchEntryFragment"
+            app:destination="@id/searchEntryFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryFragment"
+        android:name="com.ebookfrenzy.hyrule.ui.EntryFragment"
+        android:label="Entry">
+        <argument
+            android:name="entry"
+            app:argType="com.ebookfrenzy.hyrule.model.Entry" />
+        <argument
+            android:name="launchedFrom"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedEntryFragment"
+        android:name="com.ebookfrenzy.hyrule.ui.SavedEntryFragment">
+        <action
+            android:id="@+id/action_savedEntryFragment_to_entryFragment"
+            app:destination="@id/entryFragment"
+            app:popUpTo="@id/savedEntryFragment"
+            app:popUpToInclusive="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/searchEntryFragment"
+        android:name="com.ebookfrenzy.hyrule.ui.SearchEntryFragment"
+        android:label="Search">
+        <action
+            android:id="@+id/action_searchEntryFragment_to_entryFragment"
+            app:destination="@id/entryFragment"
+            app:popUpTo="@id/searchEntryFragment" />
+        <argument
+            android:name="query"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="none" />
+    </fragment>
+</navigation>
