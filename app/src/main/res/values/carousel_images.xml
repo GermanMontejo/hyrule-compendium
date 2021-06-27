@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="carousel_images">
+        <item>@drawable/hyrulecastle</item>
+        <item>@drawable/thunderblightganon</item>
+        <item>@drawable/chest</item>
+        <item>@drawable/blupees</item>
+        <item>@drawable/silentprincess</item>
+        <item>@drawable/guardiansword</item>
+    </integer-array>
+</resources>
