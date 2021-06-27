@@ -49,7 +49,6 @@ class HyruleViewModel @Inject constructor(
 
 
     fun getEntry(entry: String) {
-        println("entry string: $entry")
         viewModelScope.launch(Dispatchers.IO) {
             _entryLiveData.postValue(ConsumableEvent(EntryResource.Loading()))
             try {
@@ -72,7 +71,6 @@ class HyruleViewModel @Inject constructor(
     }
 
     fun getEntriesByCategory(category: String) {
-        println("category: $category")
         viewModelScope.launch(Dispatchers.IO) {
             _entriesLiveData.postValue(ConsumableEvent(EntryResource.Loading()))
             try {
@@ -81,7 +79,6 @@ class HyruleViewModel @Inject constructor(
                         val creatures = repository.getCreatures()
                         if (creatures.isSuccessful) {
                             creatures.body()?.let { foodAndNonFood ->
-                                println("foodAndNonFood: ${Gson().toJson(creatures.body())}")
                                 _creaturesLiveData.postValue(
                                     ConsumableEvent(
                                         EntryResource.Success(

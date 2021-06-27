@@ -113,7 +113,6 @@ class EntryFragment : Fragment() {
                     MainScope().launch {
                         val result =
                             findNavController().popBackStack(R.id.savedEntryFragment, false)
-                        println("popping to backstack! $result")
                     }
                 } else {
                     // first let's check if this entry has already been saved or not.

@@ -52,7 +52,6 @@ class SearchEntryFragment : Fragment() {
             }
             if (query != "none") {
                 editTextSearch.setText(query)
-                print("query: $query")
                 searchProcessor(query)
             }
 
@@ -77,23 +76,18 @@ class SearchEntryFragment : Fragment() {
         viewModel.entriesLiveData.observe(viewLifecycleOwner, {
             run {
                 it.consume { entries ->
-                    println("homefragment")
                     when (entries) {
                         is EntryResource.Loading -> {
-                            println("progress - homefragment")
                             showProgressBar()
                         }
                         is EntryResource.Success -> {
                             hideProgressBar()
                             binding.textViewNotFound.visibility = View.INVISIBLE
-                            // println("entries: ${Gson().toJson(entries.data)}")
-                            println("success - homefragment")
                             entries.data?.let {
                                 adapter.submitList(Converter.convertEntriesToCategoryItems(it))
                             }
                         }
                         is EntryResource.Failure -> {
-                            println("failure - homefragment")
                             binding.textViewNotFound.visibility = View.VISIBLE
                             hideProgressBar()
                             Snackbar.make(

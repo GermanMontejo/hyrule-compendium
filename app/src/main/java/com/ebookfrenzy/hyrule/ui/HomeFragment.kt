@@ -74,7 +74,6 @@ class HomeFragment : Fragment() {
         val categories = mutableListOf<CarouselCategory>()
 
         for (i in 0..4) {
-            println(i)
             categories.add(
                 CarouselCategory(
                     id = i,
