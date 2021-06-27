@@ -57,7 +57,7 @@ class EntryFragment : Fragment() {
                         info1 = Formatter.removeBrackets(drops)
 
                     binding.textViewInfo1.text = info1
-                    var infoLabel = "drops"
+                    var infoLabel = "Drops"
                     if (!cooking_effect.isNullOrEmpty())
                         infoLabel = getString(R.string.cooking_effect)
                     else if (!drops.isNullOrEmpty())
