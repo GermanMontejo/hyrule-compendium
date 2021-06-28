@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ebookfrenzy.hyrule"
+        applicationId "com.dalvik.hyrulecompendium"
         minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
