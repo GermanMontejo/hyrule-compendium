@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.compendium.hyrule.R
 import com.compendium.hyrule.adapter.CategoryAdapter
 import com.compendium.hyrule.databinding.MainFragmentBinding
-import com.compendium.hyrule.model.AllEntries
 import com.compendium.hyrule.model.CarouselCategory
 import dagger.hilt.android.AndroidEntryPoint
 import org.imaginativeworld.whynotimagecarousel.listener.CarouselOnScrollListener
@@ -28,7 +27,6 @@ class HomeFragment : Fragment() {
     private lateinit var carouselImages: TypedArray
 
     private lateinit var categoryImages: TypedArray
-    private lateinit var allEntries: AllEntries
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
