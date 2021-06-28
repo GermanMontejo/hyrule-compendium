@@ -1,4 +1,4 @@
-package com.ebookfrenzy.hyrule
+package com.compendium.hyrule
 
 import org.junit.Test
 

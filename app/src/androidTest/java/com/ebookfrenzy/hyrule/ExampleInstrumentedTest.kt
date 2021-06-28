@@ -1,4 +1,4 @@
-package com.ebookfrenzy.hyrule
+package com.compendium.hyrule
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.ebookfrenzy.hyrule", appContext.packageName)
+        assertEquals("com.compendium.hyrule", appContext.packageName)
     }
 }

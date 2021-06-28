@@ -6,6 +6,6 @@
         <item>@drawable/chest</item>
         <item>@drawable/blupees</item>
         <item>@drawable/silentprincess</item>
-        <item>@drawable/guardiansword</item>
+        <item>@drawable/mastersword</item>
     </integer-array>
 </resources>

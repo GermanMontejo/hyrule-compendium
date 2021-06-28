@@ -7,17 +7,17 @@
             such as the location, description, and image of certain items, creatures, or monsters.
         </item>
         <item>
-            Select the monster category to view all the monsters existing
+            Select the monsters category to view all the monsters existing
             in The Legend of Zelda: Breath of the Wild. This category also contains information on
             the items a monster drops once it has been slain.
         </item>
         <item>
-            Select the treasure category to view the information about all the treasures in The
+            Select the treasures category to view the information about all the treasures in The
             Legend of Zelda: Breath of the Wild. You can find information such as the location and a
             thorough description of each treasure.
         </item>
         <item>
-            Select the creature category to view all the creatures in The Legend of Zelda:
+            Select the creatures category to view all the creatures in The Legend of Zelda:
             Breath of the Wild. Most creatures drop materials that can be used as ingredients for
             cooking or crafting.
         </item>
@@ -38,7 +38,7 @@
         <item>Equipment</item>
         <item>Materials</item>
         <item>Monsters</item>
-        <item>Treasure</item>
+        <item>Treasures</item>
     </array>
     <string name="home">Home</string>
     <string name="saved_entries">Saved Entries</string>
