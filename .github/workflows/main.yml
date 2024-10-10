@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
+  pull_request: # This ensures the workflow will execute on all pull requests.
   workflow_dispatch: # Allows manual triggering of the workflow.
   
 jobs:
